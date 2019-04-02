@@ -134,7 +134,7 @@ def startonly(start_date):
               all()
               
        
-       # if supposed to be all measurements by day for the input day
+       # if supposed to be of all measurements by day for the input day
        #result = session.query(*sel).\
        #       filter(Measurement.date >= start_date).\
        #       group_by(Measurement.date).\
@@ -155,7 +155,7 @@ def start_end(start_date, end_date):
        filter(Measurement.date <= end_date).\
        all()
 
-       #if supposed to be all measurements in that range by day
+       #if supposed to be of all measurements in that range by day
        # result = session.query(*sel).\
        #       filter(Measurement.date >= start_date).\
        #       filter(Measurement.date <= end_date).\
